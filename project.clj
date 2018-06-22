@@ -3,8 +3,8 @@
   :url "https://github.com/brunoV/throttler"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
-  :dependencies [[org.clojure/clojure "1.5.1"]
-                 [org.clojure/core.async "0.1.278.0-76b25b-alpha"]]
-  :profiles {:dev {:dependencies [[midje "1.5.1"]
+  :dependencies [[org.clojure/clojure "1.9.0"]
+                 [org.clojure/core.async "0.4.474"]]
+  :profiles {:dev {:dependencies [[midje "1.9.1"]
                                   [criterium "0.4.3"]]
-                   :plugins [[lein-midje "3.1.1"]]}})
+                   :plugins [[lein-midje "3.2.1"]]}})
